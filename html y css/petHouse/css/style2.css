@@ -1,0 +1,155 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(pet.jpg);
+    margin: 0;
+    font-family: Roboto;
+  }
+h1, p {
+  color:#8831DE;
+  font-size: larger;
+  white-space: pre-line;
+  font-family: Roboto;
+  padding: 10px;
+  
+}
+input[type=text], select,input[type=password], input[type=email]  {
+    width:  30vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width:30vw;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  select {
+    width: 30vw;
+    padding: 16px 20px;
+    border-radius: 4px;
+    border-color:#333;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.button2 {
+    background-color:#8831DE; 
+    color: white; 
+    border: 2px solid #8831DE;
+  }
+  
+.button2:hover {
+    background-color: #8831DE;
+    color: white;
+  }
+
+  textarea {
+    width: 30vw;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  #formulario_veterinario{
+    box-sizing: border-box;
+    white-space: inherit;
+    background-image: url(../image/pet.jpg);
+  }
+  input[type=radio] {
+    width: 30vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number] {
+    width: 30vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#subdiv_veterinario{
+  white-space: pre-line;
+  text-align: center;
+  margin: 0 auto;
+  width: 60vw;
+  box-sizing: border-box;
+  background-image: url(../image/perro.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  background-position-x: right;
+}
+#titulo_text{
+    text-align: center;
+    align-content: center;
+    background-image: url(../image/pet.jpg);
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: bottom;
+    -o-object-position: top;
+    object-position: top;
+    max-width: unset;
+  
+}
+#banner_principal {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  white-space: pre-line;
+  text-align: center;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  background-position-x: right;
+}
+#div_principal{
+  margin: 0 auto;
+  width: 30vw;
+  white-space: pre-line;
+  text-align: center;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  background-position-x: right;
+}
+.mapita, .mapa{
+  margin: 10px auto;
+  align-content: center;
+  text-align: center;
+}

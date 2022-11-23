@@ -1,0 +1,116 @@
+```javascript
+
+// if(/*condicion*/){
+//     //EL CODIGO QUE SE VA A EJECUTAR EN CASO DE QUE LA CONDICION SEA VERDADERA
+// }else{
+//     //EL CODIGO QUE SE VA A EJECUTAR EN CASO DE QUE LA CONDICION SEA FALSA
+// }
+
+// let edad1 = prompt("Ingrese su edad.");
+// if (edad1 >= 21) {
+//   alert("Puede pasar al bar.");
+//   let numeroSecreto = 10;
+//   let loQueDiceElUsuario = Number(prompt("¿Cuál es el número secreto?"));
+//   if (loQueDiceElUsuario === numeroSecreto) {
+//     alert("Puede pasar a la fiesta.");
+//   } else {
+//     alert("No puede pasar a la fiesta, ese no es el número secreto.");
+//   }
+// } else {
+//   alert("No puede pasar al bar.");
+// }
+
+// let edad=prompt("Ingrese su edad.")
+// if(edad<18) {
+// alert("No puede pasar al bar.")
+// } 
+// else if(edad<21){
+// alert("Puede pasar al bar, pero no puede tomar alcohol.")
+// } 
+// else{
+// alert("Puede pasar al bar y tomar alcohol.")
+// }
+
+// if(edad<21){
+//     if(edad<18){
+//         alert("No puede pasar al bar.")
+//     }else{
+//         alert("Puede pasar al bar, pero no puede tomar alcohol.")
+//     }
+// }else{
+//     alert("Puede pasar al bar y tomar alcohol.")
+// }
+
+// Preguntarle a la persona de que país procede.
+// Si procede de Asia:
+    // Chequeamos la temperatura.
+// Si procede de Europa:
+    // Chequeamos la temperatura.
+// Sino, les damos la bienvenida.
+// let procedencia = prompt("¿De que país procede?")
+// if (procedencia == "Asia") {
+//     alert("Pase por aquí, vamos a hacerle un chequeo.")
+// } else if (procedencia == "Europa") {
+//     alert("Pase por aquí, vamos a hacerle un chequeo.")
+// } else {
+//   alert("¡Bienvenid@!")
+// }
+
+
+// let edad2 = prompt("ingresa la edad")
+
+// if (edad2 < 21) edad2 < 18 ? alert("no puede pasar al bar") : alert("puede pasar al bar y pero no tomar alcohol");
+// else alert("puede pasar al bar y tomar alcohol")
+
+// let edad3 = prompt("Edad")
+// let codigoSecreto = 10
+// //let apellido = prompt("Apellido").toLowerCase()
+// let numero = Number(prompt("Numero secreto"))
+
+// if(edad3>18 || apellido == "garcia"){
+//     console.log("Podes pasar al bar!")
+// }
+
+// if(edad3>18 && numero === codigoSecreto){
+//     console.log("Podes pasar al bar y tenes barra libre!!")
+// }
+
+// let nombre = prompt("como te llamas")
+// let edad4 = Number(prompt("Edadd"))
+
+// if(edad4 !== 18){
+//     console.log("segui de largo!!!")
+// }else{
+//     console.log("Este anio te vas de viaje de egresados!!!!!")
+// }
+
+// if(nombre == "Homero"){
+//     console.log("Homero sali de aca!!!!")  
+// }else{
+//     console.log("Podes pasar!!")
+// }
+
+let nombre1 = prompt("Como te llamas") // ""
+
+if(!nombre1){
+    console.log("Ey no ingresaste ningun nombre, sos un tramposo. Te llamare Lucas")
+    nombre1 = "Lucas"
+}
+
+
+alert("Bienvenido " + nombre1)
+
+
+//TERNARIO
+
+// CONDICION ? PARTE TRUE : PARTE FALSE
+
+ (5<10) ? console.log("El numero es menor") : (8<10)?console.log("algo"):console.log("false")
+
+ if(5<10){
+    console.log("El numero es menor")
+ }else{
+    console.log("el numero es mayor")
+ }
+
+```

@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    font-family: Starjedi;
+    letter-spacing:3px
+}
+
+.dev1, .dev2, .dev3{
+    text-align: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.dev2 li{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-color: white;
+    display: inherit;
+}
+.dev3 li{
+    background-color: rgb(41, 39, 182);
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-color: white;
+    display: inherit;
+}
+
+#luke_skywalker, #darthvader{
+    font-size: 34px;
+  
+}
+
+.imagenes_dev{
+    height: 200px;
+    width: auto;
+}
+@font-face {
+    font-family:Starjedi ;
+    src: url(Starjedi.ttf);
+}
+@font-face {
+    font-family:Starjhol ;
+    src: url(Starjhol.ttf);
+}

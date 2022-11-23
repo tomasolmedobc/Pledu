@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="image/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css\style2.css">
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <title>InstaPet</title>
+</head>
+<body>
+    <div id="div_principal">
+    <img id="banner_principal" src="image/gatolindo.jpg" alt="">
+</div>
+    <div id="titulo_text">
+      
+    <h1>Bienivenido al portal de InstaPet</h1>
+
+    <p>Este es un portal dedicado exclusivamente para mascotas, donde se pedira los siguientes datos para la creacion de una cuenta.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vNMmUzx-1lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    <div id="formulario_veterinario">
+       
+        <div id="subdiv_veterinario">
+        
+        <form class="formulario" action="https://formspree.io/f/xdojyjdl" method="post">
+            <label for="tipo_usuario">Usuario:</label>
+            <input required type="text" id="tipo_usuario" name="name" placeholder="Nombre">
+            
+            <label for="pwd">Ingrese su contraseña:</label>
+            <input required type="password" name="password" id="pwd" placeholder="Contraseña">
+
+            <label for="tipo_mascota">Nombre de tu mascota:</label>
+            <input required type="text" id="tipo_mascota" name="name" placeholder="Nombre">
+
+            <label for="tipo_edad">Cuantos años tiene</label>
+            <input required type="number" id="tipo_edad" name="edad" placeholder="Edad">
+            <label for="gender"> Género de tu mascota: </label>
+            <label> Hembra
+                <input type="radio" name="genero" id="gender" value="hembra">
+            </label>
+            <label> Macho
+                <input type="radio" name="genero" id="gender" value="macho">
+        
+            </label>
+                    
+            <label for="tipo"> Tipo de mascota:
+            <select name="tipo_de_mascota" id="tipo" required="">
+                <option value="dog"> Perro </option>
+                <option value="cat"> Gato </option>
+                <option value="co"> Cobayo </option>
+                <option value="ot"> Otra </option>
+            </select>
+        </label>
+
+            <label>Correo Electronico:
+                <input required type="email" name="email" placeholder="Correo">
+            </label>
+
+            <label>Tipo de color de tu mascota:
+            <input required type="color" name="tipo_color">
+        </label>
+        <label for="cuentame"> ¿Cómo es tu mascota? </label>
+  
+    <textarea id="cuentame" rows="10" cols="40" placeholder="Contanos cómo es tu mascota" required=""></textarea>
+   
+        <label for="checkbox"> Acepto las bases y condiciones: </label>
+        <input id="checkbox" name="bases_y_condiciones" type="checkbox" value="acepta" required=""> 
+
+        <button class="button button2" type="submit">Enviar</button>
+        </form>
+    </div>
+    </div>
+<div class="mapa">
+    <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29624007.58460168!2d115.22979863156776!3d-24.992915938390162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1ses!2sar!4v1668120426122!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</body>
+</html>
